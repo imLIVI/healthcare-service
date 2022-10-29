@@ -11,7 +11,7 @@ public class PatientInfo {
     private LocalDate birthday;
     private HealthInfo healthInfo;
 
-    public PatientInfo() {
+    public PatientInfo(String иван, String петров, LocalDate of) {
     }
 
     public PatientInfo(String id,
